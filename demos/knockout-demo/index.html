@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Knockout</title>
+  </head>
+  <body>
+    <p>
+      HELLO FROM <strong data-bind="text:language"></strong> and
+      <strong data-bind="text:framework"></strong>
+    </p>
+
+    <p>Language: <input type="text" data-bind="value:language" /></p>
+    <p>Framework: <input type="text" data-bind="value:framework" /></p>
+  </body>
+  <script src="./externals/require.js"></script>
+  <script src="./built/require-config.js"></script>
+  <script>
+    require(['built/hello'])
+  </script>
+</html>
