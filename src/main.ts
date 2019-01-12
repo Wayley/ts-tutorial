@@ -12,5 +12,5 @@ function showHello(divName: string, name: string) {
   elt.innerText = sayHello(name)
 }
 const eleId = 'greeting'
-showHello(eleId, 'TypeScript_watch')
+showHello(eleId, 'TypeScript_watch_uglify')
 /*  */
