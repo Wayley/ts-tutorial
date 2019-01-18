@@ -1,5 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<div style="text-align:center" class="admin">
   <h1>Welcome to {{ title }}!</h1>
-  <app-nav [list]="navList_"></app-nav>
+  <a routerLink="/course/list">课程列表</a>
+  <app-nav [list]="navList"></app-nav>
+  <div class="main"><router-outlet></router-outlet></div>
 </div>
