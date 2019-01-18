@@ -12,6 +12,6 @@ export class NavComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    console.log('2222');
+    console.log('Nav OnInit');
   }
 }

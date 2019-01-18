@@ -1,6 +1,8 @@
 <div class="nav">
   <div>{{ tittle | uppercase }}</div>
   <ul>
-    <li *ngFor="let nav of list">{{ nav.id + nav.name }}</li>
+    <li *ngFor="let nav of list">
+      <a routerLink="/course/{{ nav.id }}">{{ nav.id + nav.name }}</a>
+    </li>
   </ul>
 </div>
